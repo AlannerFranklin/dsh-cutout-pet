@@ -1,0 +1,51 @@
+{
+  "name": "dsh-cutout-pet",
+  "version": "1.0.0",
+  "description": "Turn any picture into a floating desk pet in the Harness Web UI: local background removal, sticker outline, idle animation and a live account-balance bubble.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "desktop-pet",
+    "cutout",
+    "background-removal",
+    "sticker",
+    "balance"
+  ],
+  "license": "MIT",
+  "author": "AlannerFranklin",
+  "homepage": "https://github.com/AlannerFranklin/dsh-cutout-pet",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlannerFranklin/dsh-cutout-pet.git"
+  },
+  "icon": "icon.svg",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "assets/default.png",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": []
+    }
+  }
+}

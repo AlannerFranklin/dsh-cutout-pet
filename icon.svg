@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Cutout Pet">
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="#f6cdd6"/>
+  <rect x="10" y="9" width="44" height="46" rx="7" fill="#fffdfd" stroke="#e88fa2" stroke-width="2" stroke-dasharray="4 3"/>
+  <path d="M32 20c-7 0-12 5.5-12 12.5C20 40 25.5 47 32 47s12-7 12-14.5C44 25.5 39 20 32 20z" fill="#e0464b"/>
+  <path d="M32 20c-1.6-3.2-4.6-5.2-8-5.6 1 2.6 2.2 4.2 4 5.3-2.6-.1-4.9.6-6.7 2 2.2 1.6 4.4 2 6.4 1.4-.4 1.4-.6 2.8-.6 4.2 0-2.6 2-4.6 4.9-4.6s4.9 2 4.9 4.6c0-1.4-.2-2.8-.6-4.2 2 .6 4.2.2 6.4-1.4-1.8-1.4-4.1-2.1-6.7-2 1.8-1.1 3-2.7 4-5.3-3.4.4-6.4 2.4-8 5.6z" fill="#59b56a"/>
+  <g fill="#ffdfae">
+    <circle cx="27" cy="29" r="1.2"/>
+    <circle cx="36" cy="27" r="1.2"/>
+    <circle cx="39" cy="35" r="1.2"/>
+    <circle cx="30" cy="37" r="1.2"/>
+    <circle cx="33" cy="42" r="1.2"/>
+  </g>
+  <g fill="none" stroke="#3f4750" stroke-width="2" stroke-linecap="round">
+    <path d="M44 46l8 10"/>
+    <path d="M56 44l-8 12"/>
+  </g>
+  <circle cx="45" cy="48.5" r="2.6" fill="none" stroke="#3f4750" stroke-width="2"/>
+  <circle cx="55" cy="46" r="2.6" fill="none" stroke="#3f4750" stroke-width="2"/>
+</svg>
